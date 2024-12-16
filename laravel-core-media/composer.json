@@ -12,9 +12,9 @@
     "require": {
         "php": ">=8.0",
         "laravel/framework": "^10.0",
-        "projectinfiniteme/laravel-core-classes": "^1.1.15",
+        "projectinfiniteme/laravel-core-classes": "dev-main",
         "league/flysystem-aws-s3-v3": "^3.0",
-        "projectinfiniteme/postman-documentation": "^1.2.12",
+        "projectinfiniteme/postman-documentation": "dev-main",
         "laravel/passport": "^11.0"
     },
     "autoload": {

@@ -13,9 +13,9 @@
         "php": ">=8.0",
         "laravel/framework": "^10.0",
         "spatie/ignition": "^1.7.0",
-        "projectinfiniteme/rest-actions": "^6.0",
-        "projectinfiniteme/security-request": "^3.0",
-        "projectinfiniteme/sextant": "^1.2.9"
+        "projectinfiniteme/rest-actions": "dev-main",
+        "projectinfiniteme/security-request": "dev-main",
+        "projectinfiniteme/sextant": "dev-main"
     },
     "autoload": {
         "psr-4": {
