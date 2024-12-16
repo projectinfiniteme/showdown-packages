@@ -1,0 +1,41 @@
+{
+    "name": "projectinfiniteme/laravel-core-classes",
+    "description": "Main core classes for apis and kit modules",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yure Nery",
+            "email": "yurenery@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^10.0",
+        "spatie/ignition": "^1.7.0",
+        "projectinfiniteme/rest-actions": "^6.0",
+        "projectinfiniteme/security-request": "^3.0",
+        "projectinfiniteme/sextant": "^1.2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "AttractCores\\LaravelCoreClasses\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Url.php",
+            "src/Helpers/ClassMap.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AttractCores\\LaravelCoreClasses\\CoreControllerServiceProvider"
+            ]
+        }
+    }
+}

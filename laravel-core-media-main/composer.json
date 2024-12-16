@@ -1,0 +1,42 @@
+{
+    "name": "projectinfiniteme/laravel-core-media",
+    "description": "Core Media microservice",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yure Nery",
+            "email": "yurenery@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^10.0",
+        "projectinfiniteme/laravel-core-classes": "^1.1.15",
+        "league/flysystem-aws-s3-v3": "^3.0",
+        "projectinfiniteme/postman-documentation": "^1.2.12",
+        "laravel/passport": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AttractCores\\LaravelCoreMedia\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AttractCores\\LaravelCoreClasses\\CoreControllerServiceProvider",
+                "AttractCores\\PostmanDocumentation\\PostmanServiceProvider",
+                "AttractCores\\LaravelCoreMedia\\CoreMediaServiceProvider"
+            ],
+            "aliases" : {
+                "MediaStorage": "AttractCores\\LaravelCoreMedia\\MediaStorage"
+            }
+        }
+    }
+}

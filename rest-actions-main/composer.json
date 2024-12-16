@@ -1,0 +1,23 @@
+{
+    "name": "projectinfiniteme/rest-actions",
+    "description": "Amondar Rest Actions",
+    "type": "library",
+    "version": "6.0.0",    
+    "authors": [
+        {
+            "name": "Yure Nery",
+            "email": "yurenery@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amondar\\RestActions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests/TestCase.php"]
+    }
+}

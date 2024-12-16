@@ -1,0 +1,28 @@
+{
+    "name": "projectinfiniteme/security-request",
+    "description": "Amondar Security Request",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yure Nery",
+            "email": "yurenery@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^10.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Helpers/SecurityUserHelper.php"
+        ],
+        "psr-4": {
+            "Amondar\\SecurityRequest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests/TestCase.php"]
+    },
+    "require-dev": {}
+}
