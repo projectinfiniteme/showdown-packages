@@ -13,7 +13,7 @@
         "php": ">=7.4",
         "laravel/framework": "^8.0",
         "projectinfiniteme/laravel-core-classes": "dev-main",
-        "league/flysystem-aws-s3-v3": "^3.0",
+        "league/flysystem-aws-s3-v3": "^2.0",
         "projectinfiniteme/postman-documentation": "dev-main",
         "laravel/passport": "^11.0"
     },
